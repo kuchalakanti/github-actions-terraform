@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "ap-south-1"
+  region = "us-east-1"
 }
 
 ### Backend ###
@@ -10,7 +10,7 @@ terraform {
   backend "s3" {
     bucket = "cloudgeeks-backend4"
     key = "cloudgeeks.tfstate"
-    region = "ap-south-1"
+    region = "us-east-1"
   }
 }
 
