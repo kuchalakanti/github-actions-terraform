@@ -17,10 +17,10 @@ jobs:
       - name: AWS CLI
         run: |
           aws --version
-          aws s3api create-bucket --bucket cloudgeeks-backend3 --region ap-south-1
+          aws s3api create-bucket --bucket cloudgeeks-backend4 --region us-east-1
       - name: Terraform Install
         uses: hashicorp/setup-terraform@v1
-      - name: Terraform fmt
+      - name: Terraform fm
         id: fmt
         run: | 
           terraform --version
