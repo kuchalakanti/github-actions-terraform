@@ -8,7 +8,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "cloudgeeks-backend3"
+    bucket = "cloudgeeks-backend4"
     key = "cloudgeeks.tfstate"
     region = "ap-south-1"
   }
